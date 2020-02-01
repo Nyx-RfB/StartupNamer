@@ -47,7 +47,7 @@ class RandomWordsState extends State<RandomWords> {
           style: _biggerFont,
         ),
         trailing: Icon(
-          _alreadySaved ? Icons.favorite : Icons.favorite_border,
+          _alreadySaved ? Icons.star : Icons.star_border,
           color: _alreadySaved ? Colors.red : null,
         ),
         onTap: () {
